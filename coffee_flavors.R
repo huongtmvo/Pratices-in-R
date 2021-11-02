@@ -8,7 +8,7 @@ str(flavor_df)
 
 # Rename the column Company...Maker.if.known. as Brand
 flavor_df %>% 
-  dplyr::rename(Brand = "Company \n(Maker-if known)")
+  rename(Brand = Company...Maker.if.known.)
 head(flavor_df)        
 
 # Create the new data frame with just Rating, Cocoa.Percent and Company.Location
